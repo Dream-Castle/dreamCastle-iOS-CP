@@ -1,0 +1,606 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AC35970E20B66D5D007B0E64 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC35970D20B66D5D007B0E64 /* AppDelegate.swift */; };
+		AC35971020B66D5D007B0E64 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC35970F20B66D5D007B0E64 /* ViewController.swift */; };
+		AC35971320B66D5D007B0E64 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC35971120B66D5D007B0E64 /* Main.storyboard */; };
+		AC35971620B66D5D007B0E64 /* Dream_CastleCP.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AC35971420B66D5D007B0E64 /* Dream_CastleCP.xcdatamodeld */; };
+		AC35971820B66D64007B0E64 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC35971720B66D64007B0E64 /* Assets.xcassets */; };
+		AC35971B20B66D64007B0E64 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC35971920B66D64007B0E64 /* LaunchScreen.storyboard */; };
+		AC35972620B66D64007B0E64 /* Dream_CastleCPTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC35972520B66D64007B0E64 /* Dream_CastleCPTests.swift */; };
+		AC35973120B66D64007B0E64 /* Dream_CastleCPUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC35973020B66D64007B0E64 /* Dream_CastleCPUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AC35972220B66D64007B0E64 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AC35970220B66D5D007B0E64 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AC35970920B66D5D007B0E64;
+			remoteInfo = "Dream-CastleCP";
+		};
+		AC35972D20B66D64007B0E64 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AC35970220B66D5D007B0E64 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AC35970920B66D5D007B0E64;
+			remoteInfo = "Dream-CastleCP";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AC35970A20B66D5D007B0E64 /* Dream-CastleCP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Dream-CastleCP.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC35970D20B66D5D007B0E64 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AC35970F20B66D5D007B0E64 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AC35971220B66D5D007B0E64 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AC35971520B66D5D007B0E64 /* Dream_CastleCP.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Dream_CastleCP.xcdatamodel; sourceTree = "<group>"; };
+		AC35971720B66D64007B0E64 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AC35971A20B66D64007B0E64 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AC35971C20B66D64007B0E64 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AC35972120B66D64007B0E64 /* Dream-CastleCPTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Dream-CastleCPTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC35972520B66D64007B0E64 /* Dream_CastleCPTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dream_CastleCPTests.swift; sourceTree = "<group>"; };
+		AC35972720B66D64007B0E64 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AC35972C20B66D64007B0E64 /* Dream-CastleCPUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Dream-CastleCPUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC35973020B66D64007B0E64 /* Dream_CastleCPUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dream_CastleCPUITests.swift; sourceTree = "<group>"; };
+		AC35973220B66D64007B0E64 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AC35970720B66D5D007B0E64 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC35971E20B66D64007B0E64 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC35972920B66D64007B0E64 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AC35970120B66D5D007B0E64 = {
+			isa = PBXGroup;
+			children = (
+				AC35970C20B66D5D007B0E64 /* Dream-CastleCP */,
+				AC35972420B66D64007B0E64 /* Dream-CastleCPTests */,
+				AC35972F20B66D64007B0E64 /* Dream-CastleCPUITests */,
+				AC35970B20B66D5D007B0E64 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AC35970B20B66D5D007B0E64 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AC35970A20B66D5D007B0E64 /* Dream-CastleCP.app */,
+				AC35972120B66D64007B0E64 /* Dream-CastleCPTests.xctest */,
+				AC35972C20B66D64007B0E64 /* Dream-CastleCPUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AC35970C20B66D5D007B0E64 /* Dream-CastleCP */ = {
+			isa = PBXGroup;
+			children = (
+				AC35970D20B66D5D007B0E64 /* AppDelegate.swift */,
+				AC35970F20B66D5D007B0E64 /* ViewController.swift */,
+				AC35971120B66D5D007B0E64 /* Main.storyboard */,
+				AC35971720B66D64007B0E64 /* Assets.xcassets */,
+				AC35971920B66D64007B0E64 /* LaunchScreen.storyboard */,
+				AC35971C20B66D64007B0E64 /* Info.plist */,
+				AC35971420B66D5D007B0E64 /* Dream_CastleCP.xcdatamodeld */,
+			);
+			path = "Dream-CastleCP";
+			sourceTree = "<group>";
+		};
+		AC35972420B66D64007B0E64 /* Dream-CastleCPTests */ = {
+			isa = PBXGroup;
+			children = (
+				AC35972520B66D64007B0E64 /* Dream_CastleCPTests.swift */,
+				AC35972720B66D64007B0E64 /* Info.plist */,
+			);
+			path = "Dream-CastleCPTests";
+			sourceTree = "<group>";
+		};
+		AC35972F20B66D64007B0E64 /* Dream-CastleCPUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AC35973020B66D64007B0E64 /* Dream_CastleCPUITests.swift */,
+				AC35973220B66D64007B0E64 /* Info.plist */,
+			);
+			path = "Dream-CastleCPUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AC35970920B66D5D007B0E64 /* Dream-CastleCP */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC35973520B66D64007B0E64 /* Build configuration list for PBXNativeTarget "Dream-CastleCP" */;
+			buildPhases = (
+				AC35970620B66D5D007B0E64 /* Sources */,
+				AC35970720B66D5D007B0E64 /* Frameworks */,
+				AC35970820B66D5D007B0E64 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Dream-CastleCP";
+			productName = "Dream-CastleCP";
+			productReference = AC35970A20B66D5D007B0E64 /* Dream-CastleCP.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AC35972020B66D64007B0E64 /* Dream-CastleCPTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC35973820B66D64007B0E64 /* Build configuration list for PBXNativeTarget "Dream-CastleCPTests" */;
+			buildPhases = (
+				AC35971D20B66D64007B0E64 /* Sources */,
+				AC35971E20B66D64007B0E64 /* Frameworks */,
+				AC35971F20B66D64007B0E64 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AC35972320B66D64007B0E64 /* PBXTargetDependency */,
+			);
+			name = "Dream-CastleCPTests";
+			productName = "Dream-CastleCPTests";
+			productReference = AC35972120B66D64007B0E64 /* Dream-CastleCPTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AC35972B20B66D64007B0E64 /* Dream-CastleCPUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC35973B20B66D64007B0E64 /* Build configuration list for PBXNativeTarget "Dream-CastleCPUITests" */;
+			buildPhases = (
+				AC35972820B66D64007B0E64 /* Sources */,
+				AC35972920B66D64007B0E64 /* Frameworks */,
+				AC35972A20B66D64007B0E64 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AC35972E20B66D64007B0E64 /* PBXTargetDependency */,
+			);
+			name = "Dream-CastleCPUITests";
+			productName = "Dream-CastleCPUITests";
+			productReference = AC35972C20B66D64007B0E64 /* Dream-CastleCPUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AC35970220B66D5D007B0E64 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = ClickLabs;
+				TargetAttributes = {
+					AC35970920B66D5D007B0E64 = {
+						CreatedOnToolsVersion = 9.3.1;
+					};
+					AC35972020B66D64007B0E64 = {
+						CreatedOnToolsVersion = 9.3.1;
+						TestTargetID = AC35970920B66D5D007B0E64;
+					};
+					AC35972B20B66D64007B0E64 = {
+						CreatedOnToolsVersion = 9.3.1;
+						TestTargetID = AC35970920B66D5D007B0E64;
+					};
+				};
+			};
+			buildConfigurationList = AC35970520B66D5D007B0E64 /* Build configuration list for PBXProject "Dream-CastleCP" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AC35970120B66D5D007B0E64;
+			productRefGroup = AC35970B20B66D5D007B0E64 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AC35970920B66D5D007B0E64 /* Dream-CastleCP */,
+				AC35972020B66D64007B0E64 /* Dream-CastleCPTests */,
+				AC35972B20B66D64007B0E64 /* Dream-CastleCPUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AC35970820B66D5D007B0E64 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC35971B20B66D64007B0E64 /* LaunchScreen.storyboard in Resources */,
+				AC35971820B66D64007B0E64 /* Assets.xcassets in Resources */,
+				AC35971320B66D5D007B0E64 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC35971F20B66D64007B0E64 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC35972A20B66D64007B0E64 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AC35970620B66D5D007B0E64 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC35971020B66D5D007B0E64 /* ViewController.swift in Sources */,
+				AC35970E20B66D5D007B0E64 /* AppDelegate.swift in Sources */,
+				AC35971620B66D5D007B0E64 /* Dream_CastleCP.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC35971D20B66D64007B0E64 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC35972620B66D64007B0E64 /* Dream_CastleCPTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC35972820B66D64007B0E64 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC35973120B66D64007B0E64 /* Dream_CastleCPUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AC35972320B66D64007B0E64 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AC35970920B66D5D007B0E64 /* Dream-CastleCP */;
+			targetProxy = AC35972220B66D64007B0E64 /* PBXContainerItemProxy */;
+		};
+		AC35972E20B66D64007B0E64 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AC35970920B66D5D007B0E64 /* Dream-CastleCP */;
+			targetProxy = AC35972D20B66D64007B0E64 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AC35971120B66D5D007B0E64 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AC35971220B66D5D007B0E64 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AC35971920B66D64007B0E64 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AC35971A20B66D64007B0E64 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AC35973320B66D64007B0E64 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AC35973420B66D64007B0E64 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AC35973620B66D64007B0E64 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PB2NUE95WT;
+				INFOPLIST_FILE = "Dream-CastleCP/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.clicklabs.Dream-CastleCP";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AC35973720B66D64007B0E64 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PB2NUE95WT;
+				INFOPLIST_FILE = "Dream-CastleCP/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.clicklabs.Dream-CastleCP";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		AC35973920B66D64007B0E64 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PB2NUE95WT;
+				INFOPLIST_FILE = "Dream-CastleCPTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.clicklabs.Dream-CastleCPTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Dream-CastleCP.app/Dream-CastleCP";
+			};
+			name = Debug;
+		};
+		AC35973A20B66D64007B0E64 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PB2NUE95WT;
+				INFOPLIST_FILE = "Dream-CastleCPTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.clicklabs.Dream-CastleCPTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Dream-CastleCP.app/Dream-CastleCP";
+			};
+			name = Release;
+		};
+		AC35973C20B66D64007B0E64 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PB2NUE95WT;
+				INFOPLIST_FILE = "Dream-CastleCPUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.clicklabs.Dream-CastleCPUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Dream-CastleCP";
+			};
+			name = Debug;
+		};
+		AC35973D20B66D64007B0E64 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PB2NUE95WT;
+				INFOPLIST_FILE = "Dream-CastleCPUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.clicklabs.Dream-CastleCPUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Dream-CastleCP";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AC35970520B66D5D007B0E64 /* Build configuration list for PBXProject "Dream-CastleCP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC35973320B66D64007B0E64 /* Debug */,
+				AC35973420B66D64007B0E64 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC35973520B66D64007B0E64 /* Build configuration list for PBXNativeTarget "Dream-CastleCP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC35973620B66D64007B0E64 /* Debug */,
+				AC35973720B66D64007B0E64 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC35973820B66D64007B0E64 /* Build configuration list for PBXNativeTarget "Dream-CastleCPTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC35973920B66D64007B0E64 /* Debug */,
+				AC35973A20B66D64007B0E64 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC35973B20B66D64007B0E64 /* Build configuration list for PBXNativeTarget "Dream-CastleCPUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC35973C20B66D64007B0E64 /* Debug */,
+				AC35973D20B66D64007B0E64 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		AC35971420B66D5D007B0E64 /* Dream_CastleCP.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				AC35971520B66D5D007B0E64 /* Dream_CastleCP.xcdatamodel */,
+			);
+			currentVersion = AC35971520B66D5D007B0E64 /* Dream_CastleCP.xcdatamodel */;
+			path = Dream_CastleCP.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = AC35970220B66D5D007B0E64 /* Project object */;
+}
